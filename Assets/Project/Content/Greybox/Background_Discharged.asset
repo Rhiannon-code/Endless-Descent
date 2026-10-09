@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2668ac19f483b59cfb29d6d6e1466bdc, type: 3}
+  m_Name: Background_Discharged
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.BackgroundDefinition
+  id: background.discharged
+  displayName: Discharged Levy
+  description: Three years in somebody else's war and a jerkin they let you keep.
+  worn:
+  - {fileID: 11400000, guid: fb6c7fd50980cc544a1b06036ca2e47b, type: 2}
+  - {fileID: 11400000, guid: 8915699c7da08f7ad98d21167ffcbe3f, type: 2}
+  - {fileID: 11400000, guid: 717bff1c620092a6c83ef2339050c2ed, type: 2}
+  carried:
+  - {fileID: 11400000, guid: 1f588ddd43e833874b37bdb175321018, type: 2}
+  - {fileID: 11400000, guid: 8f5e2eacf03256122917c87b54010a96, type: 2}
+  startingGold: 40
+  trainedSkills: 0600000000000000
+  trainedBonus: 8
+  faction: {fileID: 0}
+  standing: 0

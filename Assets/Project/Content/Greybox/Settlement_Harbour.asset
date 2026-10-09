@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 790ea62d68276a90c8136b123b6ee175, type: 3}
+  m_Name: Settlement_Harbour
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.SettlementDefinition
+  displayName: Saltmere (harbour)
+  extent: {x: 280, y: 270}
+  shore: 1
+  walled: 0
+  relief: 3
+  terrainScale: 140
+  squareRadius: 17
+  arteries: 4
+  arteryLength: 5
+  rings: 2
+  lanes: 22
+  stepRange: {x: 24, y: 36}
+  wander: 0.4
+  ringGap: 30
+  mainStreetWidth: 9
+  laneWidth: 6.5
+  alleyWidth: 3.6
+  civicQuarter: 0
+  civicSpacing: 34
+  civicStoreys: {x: 3, y: 5}
+  buildingWidth: {x: 6.5, y: 12}
+  buildingDepth: {x: 7, y: 11}
+  gap: {x: 0.2, y: 1.8}
+  setback: 0.5
+  retry: 3
+  skew: 0.2
+  coreStoreys: {x: 2, y: 4}
+  edgeStoreys: {x: 1, y: 3}
+  storeyHeight: 3.1
+  jetty: 0.35
+  buildingPurposes: 290000002a000000230000002b0000002500000039000000270000002c000000
+  civicPurposes: 
+  interiors:
+  - {fileID: 11400000, guid: bd292a8092ec05a20bd285e9141e0487, type: 2}
+  - {fileID: 11400000, guid: d176bbe544be5fbf4b7226eaf3d6ae3f, type: 2}
+  - {fileID: 11400000, guid: 066d0cdb7e36cb135a07da405cb06962, type: 2}
+  - {fileID: 11400000, guid: 6ddcf795a75cc2efd9d0fcea8dc3315b, type: 2}
+  - {fileID: 11400000, guid: 92b0e4b4f02be61cfbbc3a99f3008896, type: 2}
+  - {fileID: 11400000, guid: ed00c595e5ac90d94b5729a1f985b5cc, type: 2}
+  - {fileID: 11400000, guid: a5fdbe98ed1f000d599cf98d7286fbc0, type: 2}
+  - {fileID: 11400000, guid: ca418cd17a208d137b78d8332234156a, type: 2}
+  doorPlug: {fileID: 2001903149501169049, guid: c1e44bf5937456f068337dfe69bda0f5, type: 3}
+  hiddenCircle: {fileID: 0}
+  questBoard: {fileID: 3683817543749503403, guid: 1bb18aa9eadcaa1eaa8addb722f289ce, type: 3}
+  servicePurposes: 2500000039000000
+  servicePrefabs:
+  - {fileID: 2381222621441993326, guid: 7b53a1e54f5e8bb65b2df77f318f41e8, type: 3}
+  - {fileID: 2381222621441993326, guid: 7b53a1e54f5e8bb65b2df77f318f41e8, type: 3}
+  residentPurposes: 3f0000003a00000030000000240000002500000039000000230000002e0000002700000033000000
+  residentPrefabs:
+  - {fileID: 1528027420984026849, guid: 25b7f6f872a987c5597e19f0ecb2ce5e, type: 3}
+  - {fileID: 1302769644701373587, guid: ef277f3048f5f3d998ac5024da085149, type: 3}
+  - {fileID: 499161545922871191, guid: 21fc9a43912691bcdb90a3d91bcad16c, type: 3}
+  - {fileID: 5221333877847297355, guid: 5df2005729b4a158bb5f319c5e451c41, type: 3}
+  - {fileID: 871209840975011667, guid: 2209103d72939261e8429749e637e9f1, type: 3}
+  - {fileID: 253325450822418355, guid: c2634ecd788d199a9b44a5aa245d5494, type: 3}
+  - {fileID: 1974825840295138539, guid: e44cc90d1fb3f93afa394fbf3e59a954, type: 3}
+  - {fileID: 7827634723832099448, guid: 5555dfa4cab1069c3a2fde90346ca30b, type: 3}
+  - {fileID: 8371981203184075428, guid: 6fa71e85b6131c81e879baf0913fe5c5, type: 3}
+  - {fileID: 8307490775453849883, guid: 5df263053f1d10260a7b8b3e5ca2f864, type: 3}
+  tintPurposes: 290000002a000000230000002b0000002500000039000000270000002c000000
+  tintMaterials:
+  - {fileID: 2100000, guid: 006e539d605a8f33ebe9ae6bec48d19b, type: 2}
+  - {fileID: 2100000, guid: 79bf5c1174dd1d66ebddfbf74e9b7a73, type: 2}
+  - {fileID: 2100000, guid: 5102709850e7a9a40b6c2279154cd0a1, type: 2}
+  - {fileID: 2100000, guid: 0d66036690a8fe728bd2853848e7694c, type: 2}
+  - {fileID: 2100000, guid: 9a0abd1cf5b306ad492330ea790b8dc2, type: 2}
+  - {fileID: 2100000, guid: 54ac77ac397de68f9bb2eaebf2d70677, type: 2}
+  - {fileID: 2100000, guid: 82e43abb74ca19acbaae6617bf031cdb, type: 2}
+  - {fileID: 2100000, guid: b3a0fcdddaceea543ac14672f73d8296, type: 2}

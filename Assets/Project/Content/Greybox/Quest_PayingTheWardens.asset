@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bbe7195eb15961a9f5d49363ecbd22, type: 3}
+  m_Name: Quest_PayingTheWardens
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.AuthoredQuestDefinition
+  id: quest.act1.wardens
+  title: Paying the Wardens
+  giver: {fileID: 11400000, guid: 9ec4428bbdff2bfa3a15ad688555f7aa, type: 2}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  reason: The rites cost what they cost, and the parish has not paid them since the
+    lamp went out. The Wardens are not a charity and have never pretended to be.
+  complication: The fee is being collected twice, and the warden taking it knows
+    that.
+  availability: []
+  stages:
+  - Title: The fee
+    Summary: Sixty gold, in his hand, before anything else happens.
+    Objectives:
+    - Kind: 6
+      Description: Pay Perrin Ossel 60 gold
+      Item: {fileID: 0}
+      Npc: {fileID: 11400000, guid: 9ec4428bbdff2bfa3a15ad688555f7aa, type: 2}
+      Location: {fileID: 0}
+      Enemy: {fileID: 0}
+      Count: 60
+    OnEnter:
+    - Kind: 3
+      Faction: {fileID: 0}
+      Item: {fileID: 0}
+      Npc: {fileID: 0}
+      Property: {fileID: 0}
+      QuestId: 
+      Text: 
+      Amount: 60
+  - Title: Clear the stair
+    Summary: The rites cannot be said over a stair with things still on it.
+    Objectives:
+    - Kind: 0
+      Description: Put down 3 of the risen
+      Item: {fileID: 0}
+      Npc: {fileID: 0}
+      Location: {fileID: 0}
+      Enemy: {fileID: 11400000, guid: 88ac0d931e59cd62f863ef5dace48fd2, type: 2}
+      Count: 3
+    OnEnter: []
+  - Title: Say so
+    Summary: He will want to hear it from you and not from the parish.
+    Objectives:
+    - Kind: 3
+      Description: Report to Perrin Ossel
+      Item: {fileID: 0}
+      Npc: {fileID: 11400000, guid: 9ec4428bbdff2bfa3a15ad688555f7aa, type: 2}
+      Location: {fileID: 0}
+      Enemy: {fileID: 0}
+      Count: 1
+    OnEnter:
+    - Kind: 5
+      Faction: {fileID: 0}
+      Item: {fileID: 0}
+      Npc: {fileID: 11400000, guid: 3d0eaa6ab437133d89473d2dba27f1a9, type: 2}
+      Property: {fileID: 0}
+      QuestId: 
+      Text: Knows the fee was paid, and is quiet about where it went.
+      Amount: 0
+  onComplete:
+  - Kind: 3
+    Faction: {fileID: 0}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: 220
+  - Kind: 0
+    Faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: 12
+  - Kind: 7
+    Faction: {fileID: 0}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: quest.act1.register
+    Text: 
+    Amount: 0
+  onFail:
+  - Kind: 0
+    Faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: -18
+  deadlineDays: 12
+  failsIfGiverDies: 1

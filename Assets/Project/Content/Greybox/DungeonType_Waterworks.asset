@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab442b9c0bc2c3a44a9ea1bb434e9200, type: 3}
+  m_Name: DungeonType_Waterworks
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.DungeonTypeDefinition
+  displayName: Waterworks
+  moduleSet: {fileID: 11400000, guid: c5af523412a98ce5089d1c449baf0623, type: 2}
+  mainPathRooms: {x: 392, y: 458}
+  gateCount: {x: 1, y: 3}
+  minRoomsBetweenGates: 2
+  keyBranchLength: {x: 1, y: 3}
+  extraBranchCount: {x: 156, y: 194}
+  extraBranchLength: {x: 2, y: 5}
+  secretChance: 0.25
+  setPieceChance: 0.3
+  corridorStraight: {fileID: 11400000, guid: c870bbfdc33cb86bdbe32925a5fb0ac9, type: 2}
+  corridorCorner: {fileID: 11400000, guid: d08578a1941bf79c892f87b721fab274, type: 2}
+  stair: {fileID: 11400000, guid: 27c828b5513ee886d9f6846e76c047c5, type: 2}
+  doorPlug: {fileID: 2001903149501169049, guid: c1e44bf5937456f068337dfe69bda0f5, type: 3}
+  door: {fileID: 1623590304513842005, guid: 98f2bf02727264a718a6aa3a390b7ee9, type: 3}
+  secretDoor: {fileID: 4213814771137193101, guid: 643e5b261755401e0995f5ce01398121, type: 3}
+  enemies:
+  - {fileID: 11400000, guid: 7943fd1c0df930c9fa788a2963819631, type: 2}
+  - {fileID: 11400000, guid: b9ae87d40b89547a28df656074efe300, type: 2}
+  - {fileID: 11400000, guid: 2a979148fd8b8aca5b45bf19d49ee862, type: 2}
+  - {fileID: 11400000, guid: 88ac0d931e59cd62f863ef5dace48fd2, type: 2}
+  - {fileID: 11400000, guid: 7c276b3aacce9f3e8963dcf071801bfd, type: 2}
+  - {fileID: 11400000, guid: 71cdd6254e9170ca78999eb62ab29925, type: 2}
+  - {fileID: 11400000, guid: 6068827f339e99b76ad99ba1ae3828e9, type: 2}
+  boss: {fileID: 11400000, guid: 4f175f0b8443a53d28a0856a8bc9c65c, type: 2}
+  loot: {fileID: 11400000, guid: 13952b47045f607d99b9218f6ff17077, type: 2}
+  bossLoot: {fileID: 11400000, guid: e5bfe4e26c46294baa8b34845052ab91, type: 2}
+  traps:
+  - {fileID: 9134526580256674730, guid: ee246918cc69e9b16ac74a2c5764d239, type: 3}
+  - {fileID: 2786582170788325275, guid: cdb89e54fbf64c179aa0a24bc49295b8, type: 3}
+  - {fileID: 8671140149717603073, guid: 6b8f1413a5e172f2cbf3e502a62d995c, type: 3}
+  - {fileID: 1701183559909991938, guid: a8bda9341833a0e3cb7d9d3bd90d7276, type: 3}
+  trapChance: 0.18
+  furnishings:
+  - {fileID: 3052704856389528592, guid: 377b84d7bccfe4424b92635749c3d3ab, type: 3}
+  - {fileID: 1950345218901568443, guid: c36accf06036167a4997a67702a90951, type: 3}
+  - {fileID: 7913200761716276584, guid: ec75e468bc865437aa48ca3f4258d650, type: 3}
+  - {fileID: 0}
+  - {fileID: 8033574508801579879, guid: 54573139e74608815a17a4b64a90f137, type: 3}
+  - {fileID: 129294892839016204, guid: 4e18d599f76b56006ac753af3d570257, type: 3}
+  - {fileID: 4021500270573316868, guid: 5c92357229f8fbeb3bb2c30774fbf979, type: 3}
+  furnishingChance: 0.05
+  residentPurposes: 
+  residentPrefabs: []
+  maxCorridorSegments: 4
+  shortcutChance: 0.4
+  minShortcutSpan: 3
+  lockDoors: 0
+  maxRoomExits: 4
+  roomsPerLevel: {x: 4, y: 7}
+  branchDescendChance: 0.45
+  minStairsPerLevel: 3
+  bigLevelChance: 0.55
+  bigLevelRooms: {x: 23, y: 34}
+  loopChance: 0.16
+  minLoopSpan: 4
+  deadEndReconnectChance: 0.8

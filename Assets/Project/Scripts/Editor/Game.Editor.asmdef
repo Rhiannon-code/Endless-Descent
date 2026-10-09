@@ -1,0 +1,32 @@
+{
+    "name": "Game.Editor",
+    "rootNamespace": "EndlessDescent.EditorTools",
+    "references": [
+        "Game.Core",
+        "Game.Data",
+        "Game.Items",
+        "Game.Combat",
+        "Game.Simulation",
+        "Game.Dungeons",
+        "Game.Quests",
+        "Game.Player",
+        "Game.World",
+        "Game.UI",
+        "Unity.InputSystem",
+        "UnityEngine.UI",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Runtime",
+        "Game.Settlements"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

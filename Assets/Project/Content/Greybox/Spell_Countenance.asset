@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0104a82350c74468c91a2695bf266580, type: 3}
+  m_Name: Spell_Countenance
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.SpellDefinition
+  id: spell.countenance
+  displayName: Countenance
+  kind: 2
+  manaCost: 22
+  cooldown: 12
+  power: 5
+  duration: 40
+  projectileSpeed: 0
+  colour: {r: 0.8, g: 0.75, b: 0.9, a: 1}
+  school: 12
+  tradition: {fileID: 11400000, guid: 637b22b9d7c9f0c9bb097624cf558b68, type: 2}

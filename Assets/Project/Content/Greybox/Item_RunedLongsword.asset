@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3c74be91b604d5ebaf755f6f428aab, type: 3}
+  m_Name: Item_RunedLongsword
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.WeaponDefinition
+  id: item.item_runedlongsword
+  displayName: Runed Longsword
+  description: 
+  category: 1
+  weight: 5
+  baseValue: 1600
+  maxStack: 1
+  icon: {fileID: 0}
+  worldPrefab: {fileID: 0}
+  damage: 34
+  reach: 2.7
+  poiseDamage: 10
+  windup: 0.26
+  active: 0.12
+  recovery: 0.34
+  skill: 0
+  staminaCost: 21

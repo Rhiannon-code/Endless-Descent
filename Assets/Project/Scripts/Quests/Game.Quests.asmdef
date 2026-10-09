@@ -1,0 +1,19 @@
+{
+    "name": "Game.Quests",
+    "rootNamespace": "EndlessDescent.Quests",
+    "references": [
+        "Game.Core",
+        "Game.Data",
+        "Game.Items",
+        "Game.Simulation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

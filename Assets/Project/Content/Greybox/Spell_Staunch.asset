@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0104a82350c74468c91a2695bf266580, type: 3}
+  m_Name: Spell_Staunch
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.SpellDefinition
+  id: spell.staunch
+  displayName: Staunch
+  kind: 1
+  manaCost: 14
+  cooldown: 2
+  power: 18
+  duration: 0
+  projectileSpeed: 0
+  colour: {r: 0.5, g: 0.95, b: 0.6, a: 1}
+  school: 10
+  tradition: {fileID: 11400000, guid: f92cc5f4fffd06a13aff383fbbb4a906, type: 2}

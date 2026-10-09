@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_Ettrin_2
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.ettrin.2
+  displayName: Sella Drewe
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: c4f8e5617d2e6fe2f981d1b0a7749c1f, type: 2}
+  motives: 0500000004000000
+  relations:
+  - {fileID: 11400000, guid: 584f33e9ec2611ce5bba02f5920513b1, type: 2}
+  - {fileID: 11400000, guid: 7a5fcfd4c8c009ffe87234829978e34a, type: 2}
+  situation: Is the innkeeper in Ettrin, and is honest about wanting more than is
+    owed.
+  dialogue: {fileID: 0}
+  workplace: 37
+  isMerchant: 0
+  startingGold: 250

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17e5eb5f791710f09f9a2c9520cd63d, type: 3}
+  m_Name: Enemy_Warhound
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.EnemyDefinition
+  id: enemy.warhound
+  displayName: Warhound
+  prefab: {fileID: 618091297281466, guid: 6c596e15d5e99dc1d80dcf7507a7b27b, type: 3}
+  stats:
+    Level: 3
+    HitPointsPerLevel: 9
+    Strength: 40
+    Intelligence: 10
+    Willpower: 25
+    Agility: 55
+    Speed: 65
+    Endurance: 40
+    Personality: 10
+    Luck: 40
+    Weapon: 32
+    Defence: 18
+    Magic: 5
+    Stealth: 45
+  weaponSkill: 4
+  maxHealth: 40
+  armour: 1
+  poise: 30
+  damage: 12
+  reach: 1.75
+  windup: 0.55
+  active: 0.15
+  recovery: 0.7
+  moveSpeed: 4.2
+  aggroRange: 16
+  attackCooldown: 1.1
+  loot: {fileID: 11400000, guid: 3bc37ad3556ca95b58ffe3bfb7e534ed, type: 2}
+  experience: 11
+  inflicts: 0
+  inflictChance: 0.2

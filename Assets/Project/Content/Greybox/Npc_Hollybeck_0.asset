@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_Hollybeck_0
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.hollybeck.0
+  displayName: Wynn Purlin
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: 0f00719c4e25a54749f3c879f67012ab, type: 2}
+  motives: 0600000007000000
+  relations:
+  - {fileID: 11400000, guid: e71a4bfc34e920457a5f5cd5ee947afa, type: 2}
+  - {fileID: 11400000, guid: 8d996f96ef3ddbeca9e3f89cd9f31417, type: 2}
+  situation: Is a carpenter in Hollybeck. Knows exactly who, and lies about why.
+  dialogue: {fileID: 0}
+  workplace: 61
+  isMerchant: 1
+  startingGold: 250

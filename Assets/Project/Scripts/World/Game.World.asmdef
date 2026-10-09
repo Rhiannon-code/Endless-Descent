@@ -1,0 +1,26 @@
+{
+    "name": "Game.World",
+    "rootNamespace": "EndlessDescent.World",
+    "references": [
+        "Game.Core",
+        "Game.Data",
+        "Game.Items",
+        "Game.Combat",
+        "Game.Simulation",
+        "Game.Dungeons",
+        "Game.Quests",
+        "Game.Player",
+        "Game.Settlements",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.HighDefinition.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

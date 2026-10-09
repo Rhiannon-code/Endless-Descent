@@ -1,0 +1,27 @@
+{
+    "name": "Game.UI",
+    "rootNamespace": "EndlessDescent.UI",
+    "references": [
+        "Game.Core",
+        "Game.Data",
+        "Game.Items",
+        "Game.Combat",
+        "Game.Simulation",
+        "Game.Quests",
+        "Game.Player",
+        "UnityEngine.UI",
+        "Game.Dungeons",
+        "Game.World",
+        "Game.Settlements",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

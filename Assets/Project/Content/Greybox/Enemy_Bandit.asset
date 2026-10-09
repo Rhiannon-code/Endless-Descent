@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17e5eb5f791710f09f9a2c9520cd63d, type: 3}
+  m_Name: Enemy_Bandit
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.EnemyDefinition
+  id: enemy.bandit
+  displayName: Bandit
+  prefab: {fileID: 2763103712184452531, guid: 74da56a4457f84ec5975ff863569922e, type: 3}
+  stats:
+    Level: 3
+    HitPointsPerLevel: 15
+    Strength: 45
+    Intelligence: 30
+    Willpower: 30
+    Agility: 45
+    Speed: 45
+    Endurance: 40
+    Personality: 35
+    Luck: 45
+    Weapon: 35
+    Defence: 30
+    Magic: 5
+    Stealth: 35
+  weaponSkill: 0
+  maxHealth: 55
+  armour: 2
+  poise: 30
+  damage: 11
+  reach: 1.75
+  windup: 0.55
+  active: 0.15
+  recovery: 0.7
+  moveSpeed: 2.6
+  aggroRange: 14
+  attackCooldown: 1.1
+  loot: {fileID: 11400000, guid: 3bc37ad3556ca95b58ffe3bfb7e534ed, type: 2}
+  experience: 12
+  inflicts: 0
+  inflictChance: 0.2

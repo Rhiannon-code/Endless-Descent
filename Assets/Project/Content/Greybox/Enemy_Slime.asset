@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17e5eb5f791710f09f9a2c9520cd63d, type: 3}
+  m_Name: Enemy_Slime
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.EnemyDefinition
+  id: enemy.slime
+  displayName: Cave Slime
+  prefab: {fileID: 66187766463467140, guid: 1241d23e41afacab2b13902e75f6f100, type: 3}
+  stats:
+    Level: 3
+    HitPointsPerLevel: 14
+    Strength: 45
+    Intelligence: 5
+    Willpower: 30
+    Agility: 15
+    Speed: 15
+    Endurance: 60
+    Personality: 5
+    Luck: 30
+    Weapon: 25
+    Defence: 30
+    Magic: 5
+    Stealth: 15
+  weaponSkill: 4
+  maxHealth: 60
+  armour: 3
+  poise: 30
+  damage: 10
+  reach: 1.95
+  windup: 0.55
+  active: 0.15
+  recovery: 0.7
+  moveSpeed: 1.2
+  aggroRange: 8
+  attackCooldown: 1.1
+  loot: {fileID: 11400000, guid: 3bc37ad3556ca95b58ffe3bfb7e534ed, type: 2}
+  experience: 12
+  inflicts: 1
+  inflictChance: 0.2

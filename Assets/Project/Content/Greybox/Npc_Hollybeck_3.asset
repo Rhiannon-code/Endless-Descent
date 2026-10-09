@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_Hollybeck_3
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.hollybeck.3
+  displayName: Garrick Lyle
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: 0f00719c4e25a54749f3c879f67012ab, type: 2}
+  motives: 0000000005000000
+  relations:
+  - {fileID: 11400000, guid: 4fe8e80ffb3e5447599a3f7e054a04d0, type: 2}
+  - {fileID: 11400000, guid: 06aaa7e0252b1113eaa60121be1323cc, type: 2}
+  situation: Is the miller in Hollybeck, and owes more than the season will cover.
+  dialogue: {fileID: 0}
+  workplace: 56
+  isMerchant: 0
+  startingGold: 250

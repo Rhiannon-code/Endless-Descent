@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c80740cb6a64f1cba293ef6f6bef29b, type: 3}
+  m_Name: Template_Devotion
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.QuestTemplateDefinition
+  id: template.devotion
+  servesMotive: 4
+  objective: 2
+  titleFormat: Returned properly
+  reasonFormat: '{giver} wants {item} returned from the right place, at the right
+    hour, in silence.'
+  complicationFormat: It is imperial property. {target} keeps a list, and returning
+    it is theft.
+  stageRange: {x: 2, y: 3}
+  deadlineDays: {x: 0, y: 0}
+  countRange: {x: 1, y: 1}
+  goldReward: {x: 80, y: 160}
+  standingReward: 5
+  candidateItems:
+  - {fileID: 11400000, guid: 7dbbc0410a576b2c393cc562dd0a7181, type: 2}
+  - {fileID: 11400000, guid: 8f5e2eacf03256122917c87b54010a96, type: 2}
+  - {fileID: 11400000, guid: f97b6e468c2548ea794431d6588cf311, type: 2}
+  - {fileID: 11400000, guid: 4526ad46a6d29cf6d8fcb2740ceeb639, type: 2}
+  - {fileID: 11400000, guid: 5da6a5d951373d46390035e383571b08, type: 2}
+  candidateEnemies:
+  - {fileID: 11400000, guid: 88ac0d931e59cd62f863ef5dace48fd2, type: 2}
+  - {fileID: 11400000, guid: 2a979148fd8b8aca5b45bf19d49ee862, type: 2}
+  - {fileID: 11400000, guid: 77e0fb16453e28fecb41263c4a107b29, type: 2}
+  - {fileID: 11400000, guid: 3e81b02b17040e7829fe74f0cb17cb46, type: 2}

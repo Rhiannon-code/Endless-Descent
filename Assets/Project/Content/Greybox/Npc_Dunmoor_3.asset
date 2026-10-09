@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_Dunmoor_3
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.dunmoor.3
+  displayName: Thessa Weir
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: 46bd13f86b5ebec48a16815b2b0c2082, type: 2}
+  motives: 0700000005000000
+  relations:
+  - {fileID: 11400000, guid: e0016c82d30b6165096204067226da4e, type: 2}
+  - {fileID: 11400000, guid: 1a2f99192e9c7e7ba85b5719e1f4d7ef, type: 2}
+  situation: Is the watch sergeant in Dunmoor, and expects the same of everybody
+    else.
+  dialogue: {fileID: 0}
+  workplace: 51
+  isMerchant: 0
+  startingGold: 250

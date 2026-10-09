@@ -1,0 +1,20 @@
+{
+    "name": "Game.Settlements",
+    "rootNamespace": "EndlessDescent.Settlements",
+    "references": [
+        "Game.Core",
+        "Game.Data",
+        "Game.Dungeons",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Game.Simulation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

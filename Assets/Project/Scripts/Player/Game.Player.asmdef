@@ -1,0 +1,21 @@
+{
+    "name": "Game.Player",
+    "rootNamespace": "EndlessDescent.Player",
+    "references": [
+        "Game.Core",
+        "Game.Data",
+        "Game.Items",
+        "Game.Combat",
+        "Game.Simulation",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

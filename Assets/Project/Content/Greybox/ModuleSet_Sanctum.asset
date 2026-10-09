@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc4ebe1968283308913c7b78b6419fe, type: 3}
+  m_Name: ModuleSet_Sanctum
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.ModuleSet
+  modules:
+  - {fileID: 11400000, guid: 0561e4e46549fd21282ff14f09af9713, type: 2}
+  - {fileID: 11400000, guid: 97091ba5b54359ce68e757c7859041d0, type: 2}
+  - {fileID: 11400000, guid: b4725724080bc1a40b051060565b6255, type: 2}
+  - {fileID: 11400000, guid: 4a39322cfe5476c6aa080c070ce7a2b4, type: 2}
+  - {fileID: 11400000, guid: 772da5ad4fa0be140bd9ae685157fbb8, type: 2}
+  - {fileID: 11400000, guid: b2c542775379369039e4740a2afb8ca5, type: 2}
+  - {fileID: 11400000, guid: c8e04692f43ef1588bc1436f598471f3, type: 2}
+  - {fileID: 11400000, guid: 757fc7aeda9020ccaa6a276b28a02424, type: 2}
+  - {fileID: 11400000, guid: 748b9cb8c648e9d83a68b0648e0aada0, type: 2}
+  - {fileID: 11400000, guid: 157a1588748a6e932a5f8574a48fce93, type: 2}
+  - {fileID: 11400000, guid: 26ff3722c3740c0faba20e5445aac860, type: 2}

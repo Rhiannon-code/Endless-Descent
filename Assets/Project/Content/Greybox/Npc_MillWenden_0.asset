@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_MillWenden_0
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.millwenden.0
+  displayName: Caspar Harrow
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: 8a845d7903caaa30f80162e3cb5adda4, type: 2}
+  motives: 0300000001000000
+  relations:
+  - {fileID: 11400000, guid: 10770fb5fb93da43fbe4835110be9aea, type: 2}
+  - {fileID: 11400000, guid: 275e2e24b3d29abf6a396c09e5674dd1, type: 2}
+  situation: Is a drover in Mill Wenden, and has not slept properly since the spring.
+  dialogue: {fileID: 0}
+  workplace: 50
+  isMerchant: 1
+  startingGold: 250

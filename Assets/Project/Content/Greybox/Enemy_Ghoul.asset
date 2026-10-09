@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17e5eb5f791710f09f9a2c9520cd63d, type: 3}
+  m_Name: Enemy_Ghoul
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.EnemyDefinition
+  id: enemy.ghoul
+  displayName: Ghoul
+  prefab: {fileID: 871118747985857935, guid: 4ce19ce1f3c6ed5b78fd8e2c8efb7674, type: 3}
+  stats:
+    Level: 4
+    HitPointsPerLevel: 12
+    Strength: 50
+    Intelligence: 15
+    Willpower: 35
+    Agility: 45
+    Speed: 45
+    Endurance: 45
+    Personality: 10
+    Luck: 35
+    Weapon: 38
+    Defence: 22
+    Magic: 5
+    Stealth: 40
+  weaponSkill: 4
+  maxHealth: 65
+  armour: 1
+  poise: 30
+  damage: 15
+  reach: 1.74
+  windup: 0.55
+  active: 0.15
+  recovery: 0.7
+  moveSpeed: 3.1
+  aggroRange: 15
+  attackCooldown: 1.1
+  loot: {fileID: 11400000, guid: 3bc37ad3556ca95b58ffe3bfb7e534ed, type: 2}
+  experience: 16
+  inflicts: 2
+  inflictChance: 0.2

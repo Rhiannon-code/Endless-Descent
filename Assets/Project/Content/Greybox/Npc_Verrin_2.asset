@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_Verrin_2
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.verrin.2
+  displayName: Ysolde Ives
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: f3b56f3c11216cd75a549bcf0fab2aea, type: 2}
+  motives: 0300000006000000
+  relations:
+  - {fileID: 11400000, guid: 9ec040980b5db7f9e934fa21ec890d2b, type: 2}
+  - {fileID: 11400000, guid: efc0b4132e47c23d5ac5cb12efcfc89a, type: 2}
+  situation: Is a fisher in Verrin, and has not slept properly since the spring.
+  dialogue: {fileID: 0}
+  workplace: 41
+  isMerchant: 0
+  startingGold: 250

@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e001cd1fc9c1f75e3bdb1d5fe4173ff0, type: 3}
+  m_Name: Loot_Shop_Armorer
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.LootTableDefinition
+  entries:
+  - Item: {fileID: 11400000, guid: e613b1c24d58bd446b8601f44699a437, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.55
+  - Item: {fileID: 11400000, guid: 5da6a5d951373d46390035e383571b08, type: 2}
+    Weight: 8
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: bf1ca48a1db063a33a892d2d47f47578, type: 2}
+    Weight: 5
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.3
+  - Item: {fileID: 11400000, guid: 634394a49284972c4ae749be7dbb265f, type: 2}
+    Weight: 7
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.3
+  - Item: {fileID: 11400000, guid: e8379cc844cf6a6fd800d2970f550100, type: 2}
+    Weight: 12
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: 8cdcab5b358743891a96afd53eb0bae5, type: 2}
+    Weight: 8
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.3
+  - Item: {fileID: 11400000, guid: fb6c7fd50980cc544a1b06036ca2e47b, type: 2}
+    Weight: 19
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: 83335b5e304c3676ea0751e23e0ff536, type: 2}
+    Weight: 39
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: 57f631cde671b1707bd62d6737eb0701, type: 2}
+    Weight: 34
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: 51ff0ebd203a10866bf219bee3d3276c, type: 2}
+    Weight: 54
+    MinCount: 1
+    MaxCount: 3
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: 3ef495598f5bd6d1c90c889a030c80af, type: 2}
+    Weight: 25
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: 854db1b93264461bf80011b93cec81fd, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.3
+  - Item: {fileID: 11400000, guid: 539127e6afc94c0169ea05375041c9e0, type: 2}
+    Weight: 2
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.3
+  - Item: {fileID: 11400000, guid: 635a1a304b77e48e88fae034ca71a42a, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.75
+  - Item: {fileID: 11400000, guid: 2e7cecab29f6f103090914c371451d25, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.75
+  - Item: {fileID: 11400000, guid: f803ef53330822400b88365e3c730a26, type: 2}
+    Weight: 2
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.55
+  - Item: {fileID: 11400000, guid: 0b42f4dbcde2e3c30a515a030d90b445, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.75
+  - Item: {fileID: 11400000, guid: 717bff1c620092a6c83ef2339050c2ed, type: 2}
+    Weight: 23
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: 8915699c7da08f7ad98d21167ffcbe3f, type: 2}
+    Weight: 3
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0
+  - Item: {fileID: 11400000, guid: bd7e76a5b90174f3f96af3612ea74631, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.75
+  - Item: {fileID: 11400000, guid: 3baeca6bcd787ab6f99a2273fd864250, type: 2}
+    Weight: 2
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.55
+  - Item: {fileID: 11400000, guid: 4c8c24fd083b6d5ecb486630ad54ebd3, type: 2}
+    Weight: 6
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.3
+  - Item: {fileID: 11400000, guid: 4088ae2089d5e7411bd2c7fe4866eda7, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.55
+  - Item: {fileID: 11400000, guid: ebf8064e8ef87a3d8a9831194de3cc08, type: 2}
+    Weight: 3
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.55
+  - Item: {fileID: 11400000, guid: 0984f18e12f4b4e449ad076d4cfcf6d1, type: 2}
+    Weight: 1
+    MinCount: 1
+    MaxCount: 1
+    MinDepth: 0.55
+  minRolls: 1
+  maxRolls: 2
+  minGold: 3
+  maxGold: 30
+  enchantChance: 0.06
+  minEnchantPower: 4
+  maxEnchantPower: 9

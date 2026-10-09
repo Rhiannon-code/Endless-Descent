@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bbe7195eb15961a9f5d49363ecbd22, type: 3}
+  m_Name: Quest_TheDebt
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.AuthoredQuestDefinition
+  id: quest.the_debt
+  title: What Halric Owes
+  giver: {fileID: 11400000, guid: c3fa715ff7ff6bf45aef7b4051cb4b1c, type: 2}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  reason: Halric owes the Gravewardens for his father's burial rites and cannot pay.
+    Ysolde, his sister, will tell you the real sum if you ask her.
+  complication: The Gravewardens already sold the debt on. Paying Halric's price
+    does not clear it.
+  availability: []
+  stages:
+  - Title: Gather what he owes
+    Summary: Bring Halric 5 bone dust from the crypt.
+    Objectives:
+    - Kind: 1
+      Description: Collect 5 Bone Dust
+      Item: {fileID: 11400000, guid: 7dbbc0410a576b2c393cc562dd0a7181, type: 2}
+      Npc: {fileID: 0}
+      Location: {fileID: 0}
+      Enemy: {fileID: 0}
+      Count: 5
+    OnEnter: []
+  onComplete:
+  - Kind: 3
+    Faction: {fileID: 0}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: 90
+  - Kind: 0
+    Faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: 6
+  - Kind: 5
+    Faction: {fileID: 0}
+    Item: {fileID: 0}
+    Npc: {fileID: 11400000, guid: 4a190c4c271d3a394a782ebe7b26e09b, type: 2}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: Knows you paid her brother's debt, and that it bought him nothing.
+    Amount: 0
+  onFail: []
+  deadlineDays: 0
+  failsIfGiverDies: 1

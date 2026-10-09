@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 790ea62d68276a90c8136b123b6ee175, type: 3}
+  m_Name: Settlement_Town
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.SettlementDefinition
+  displayName: Ashmere (town)
+  extent: {x: 480, y: 450}
+  shore: 0
+  walled: 1
+  relief: 9
+  terrainScale: 140
+  squareRadius: 24
+  arteries: 6
+  arteryLength: 7
+  rings: 4
+  lanes: 60
+  stepRange: {x: 24, y: 36}
+  wander: 0.4
+  ringGap: 30
+  mainStreetWidth: 11
+  laneWidth: 6.5
+  alleyWidth: 3.6
+  civicQuarter: 110
+  civicSpacing: 34
+  civicStoreys: {x: 3, y: 5}
+  buildingWidth: {x: 6.5, y: 12}
+  buildingDepth: {x: 7, y: 11}
+  gap: {x: 0.2, y: 1.8}
+  setback: 0.5
+  retry: 3
+  skew: 0.2
+  coreStoreys: {x: 2, y: 4}
+  edgeStoreys: {x: 1, y: 3}
+  storeyHeight: 3.1
+  jetty: 0.35
+  buildingPurposes: 23000000240000002500000039000000300000002f0000003100000032000000340000003a0000003f0000003c0000004000000027000000
+  civicPurposes: 2e000000330000003500000037000000260000001e000000
+  interiors:
+  - {fileID: 11400000, guid: f95f2e517b428e155892275119ecce61, type: 2}
+  - {fileID: 11400000, guid: ff2f7ef238add8d4aaaa607f3a4dc8fd, type: 2}
+  - {fileID: 11400000, guid: 92b0e4b4f02be61cfbbc3a99f3008896, type: 2}
+  - {fileID: 11400000, guid: ed00c595e5ac90d94b5729a1f985b5cc, type: 2}
+  - {fileID: 11400000, guid: cddbff2d21587cb5db7925eb787975a7, type: 2}
+  - {fileID: 11400000, guid: 0fe5cf090a3d810ea88b31c3a0cd0e2d, type: 2}
+  - {fileID: 11400000, guid: 1c50fc217e280edf2bbb9d52f25f48a5, type: 2}
+  - {fileID: 11400000, guid: eed19ffbb81bbe7e389bbeb1e83ed0c8, type: 2}
+  - {fileID: 11400000, guid: 60024791ba2c614b0baea3e9c4dce3b1, type: 2}
+  - {fileID: 11400000, guid: 6c01a3612ae9ee2c1b1f48623e03a62b, type: 2}
+  - {fileID: 11400000, guid: da3a05d69a240f4b9933c92ea47969cc, type: 2}
+  - {fileID: 11400000, guid: de04529f01c088af59e7af0b1778f5a5, type: 2}
+  - {fileID: 11400000, guid: 366dd45c60925632686cc1b6d7ab5098, type: 2}
+  - {fileID: 11400000, guid: 3d232f784c1338c028ddaf456f3b0ca2, type: 2}
+  - {fileID: 11400000, guid: 589b2c29dea4d05ed9f6a0b43cabe8a3, type: 2}
+  - {fileID: 11400000, guid: ed0c31e908b0c884b87be881d9a77621, type: 2}
+  - {fileID: 11400000, guid: ca54eba13c8dec36991f28b2b52856ba, type: 2}
+  - {fileID: 11400000, guid: 683b85679baf4696abedd55fc4963744, type: 2}
+  - {fileID: 11400000, guid: a5fdbe98ed1f000d599cf98d7286fbc0, type: 2}
+  - {fileID: 11400000, guid: 7b22fe6b8d3645c018c74f8903b353af, type: 2}
+  doorPlug: {fileID: 2001903149501169049, guid: c1e44bf5937456f068337dfe69bda0f5, type: 3}
+  hiddenCircle: {fileID: 0}
+  questBoard: {fileID: 3683817543749503403, guid: 1bb18aa9eadcaa1eaa8addb722f289ce, type: 3}
+  servicePurposes: 2400000025000000390000002e0000003000000031000000330000003a0000004000000026000000
+  servicePrefabs:
+  - {fileID: 1950345218901568443, guid: c36accf06036167a4997a67702a90951, type: 3}
+  - {fileID: 2381222621441993326, guid: 7b53a1e54f5e8bb65b2df77f318f41e8, type: 3}
+  - {fileID: 2381222621441993326, guid: 7b53a1e54f5e8bb65b2df77f318f41e8, type: 3}
+  - {fileID: 5379782321890139670, guid: 453169b2c6dbea5e0aee8503a7680c30, type: 3}
+  - {fileID: 8033574508801579879, guid: 54573139e74608815a17a4b64a90f137, type: 3}
+  - {fileID: 3756145440484415018, guid: 9475ebd69954d2799be548aa713e34c5, type: 3}
+  - {fileID: 3993081507234865594, guid: 2b2eba314e754dc2995bdef0cc7ccaa5, type: 3}
+  - {fileID: 28040087226038251, guid: 50a232bbfa52c1817ae9ba2e3a0d6e4f, type: 3}
+  - {fileID: 7047357679012073820, guid: f0db5ca6a6815ba0590cfea0613b4be5, type: 3}
+  - {fileID: 844086133173542853, guid: 21065a2e41dda293b99897790522d653, type: 3}
+  residentPurposes: 3f0000003a00000030000000240000002500000039000000230000002e0000002700000033000000
+  residentPrefabs:
+  - {fileID: 1528027420984026849, guid: 25b7f6f872a987c5597e19f0ecb2ce5e, type: 3}
+  - {fileID: 1302769644701373587, guid: ef277f3048f5f3d998ac5024da085149, type: 3}
+  - {fileID: 499161545922871191, guid: 21fc9a43912691bcdb90a3d91bcad16c, type: 3}
+  - {fileID: 5221333877847297355, guid: 5df2005729b4a158bb5f319c5e451c41, type: 3}
+  - {fileID: 871209840975011667, guid: 2209103d72939261e8429749e637e9f1, type: 3}
+  - {fileID: 253325450822418355, guid: c2634ecd788d199a9b44a5aa245d5494, type: 3}
+  - {fileID: 1974825840295138539, guid: e44cc90d1fb3f93afa394fbf3e59a954, type: 3}
+  - {fileID: 7827634723832099448, guid: 5555dfa4cab1069c3a2fde90346ca30b, type: 3}
+  - {fileID: 8371981203184075428, guid: 6fa71e85b6131c81e879baf0913fe5c5, type: 3}
+  - {fileID: 8307490775453849883, guid: 5df263053f1d10260a7b8b3e5ca2f864, type: 3}
+  tintPurposes: 230000002400000025000000390000002e000000300000002f0000003100000032000000330000003500000034000000370000003a0000003f0000003c0000004000000026000000270000001e000000
+  tintMaterials:
+  - {fileID: 2100000, guid: 5102709850e7a9a40b6c2279154cd0a1, type: 2}
+  - {fileID: 2100000, guid: 6328b0b612252271796d31effcf0b8fc, type: 2}
+  - {fileID: 2100000, guid: 9a0abd1cf5b306ad492330ea790b8dc2, type: 2}
+  - {fileID: 2100000, guid: 54ac77ac397de68f9bb2eaebf2d70677, type: 2}
+  - {fileID: 2100000, guid: cbf94f55f42dea4ecbcfc368dc062e1c, type: 2}
+  - {fileID: 2100000, guid: d15efa6254f522275ac5d9bd12fcb459, type: 2}
+  - {fileID: 2100000, guid: fe5809923b6e1f51baf339a0ed861d46, type: 2}
+  - {fileID: 2100000, guid: 74cc8d0432194289d922c9e3747c5dd5, type: 2}
+  - {fileID: 2100000, guid: c8a65cb1757fa512da57a59d6fe3b297, type: 2}
+  - {fileID: 2100000, guid: b440b4dc78b56c4d2b7e341e6885b903, type: 2}
+  - {fileID: 2100000, guid: 820a88c53a06d4e4caccccbed3caa0a2, type: 2}
+  - {fileID: 2100000, guid: c9906fce84b3daaedb7b15fe77ed58a7, type: 2}
+  - {fileID: 2100000, guid: 30df66e392a054c23afb92f56235c973, type: 2}
+  - {fileID: 2100000, guid: a5fc74af11b737ddaa35da785a9bc054, type: 2}
+  - {fileID: 2100000, guid: e3e7305558d42a26482e583d913e6ff6, type: 2}
+  - {fileID: 2100000, guid: f3e05e93252d9c0b29628ce338b79e4a, type: 2}
+  - {fileID: 2100000, guid: 6366cb03a911d43368a78dc6322a8e28, type: 2}
+  - {fileID: 2100000, guid: d834affff30c7f439b187f3826e17a4f, type: 2}
+  - {fileID: 2100000, guid: 82e43abb74ca19acbaae6617bf031cdb, type: 2}
+  - {fileID: 2100000, guid: b007e204079b25078bdffddf49d41996, type: 2}

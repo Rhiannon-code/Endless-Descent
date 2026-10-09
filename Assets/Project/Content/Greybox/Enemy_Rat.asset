@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17e5eb5f791710f09f9a2c9520cd63d, type: 3}
+  m_Name: Enemy_Rat
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.EnemyDefinition
+  id: enemy.rat
+  displayName: Giant Rat
+  prefab: {fileID: 2668700074066968442, guid: 39f4fe2a60a0d869499b0afa1a0a7e09, type: 3}
+  stats:
+    Level: 1
+    HitPointsPerLevel: 15
+    Strength: 25
+    Intelligence: 10
+    Willpower: 15
+    Agility: 45
+    Speed: 55
+    Endurance: 30
+    Personality: 10
+    Luck: 40
+    Weapon: 15
+    Defence: 10
+    Magic: 5
+    Stealth: 45
+  weaponSkill: 4
+  maxHealth: 18
+  armour: 0
+  poise: 30
+  damage: 5
+  reach: 1.7
+  windup: 0.55
+  active: 0.15
+  recovery: 0.7
+  moveSpeed: 3.2
+  aggroRange: 10
+  attackCooldown: 1.1
+  loot: {fileID: 11400000, guid: 3bc37ad3556ca95b58ffe3bfb7e534ed, type: 2}
+  experience: 4
+  inflicts: 3
+  inflictChance: 0.2

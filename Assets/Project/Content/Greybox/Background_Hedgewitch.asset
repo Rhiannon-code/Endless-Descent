@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2668ac19f483b59cfb29d6d6e1466bdc, type: 3}
+  m_Name: Background_Hedgewitch
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.BackgroundDefinition
+  id: background.hedgewitch
+  displayName: Hedge Witch
+  description: The workings anybody can read, learned from somebody who should not
+    have taught them.
+  worn:
+  - {fileID: 11400000, guid: 57f631cde671b1707bd62d6737eb0701, type: 2}
+  carried:
+  - {fileID: 11400000, guid: 8f5e2eacf03256122917c87b54010a96, type: 2}
+  - {fileID: 11400000, guid: 92d76aacc9ff877b396f7898d12bfbf3, type: 2}
+  - {fileID: 11400000, guid: c71b4a5a7ee7966ebbdf5a564b870c80, type: 2}
+  startingGold: 60
+  trainedSkills: 0a0000000b000000
+  trainedBonus: 8
+  faction: {fileID: 0}
+  standing: -4

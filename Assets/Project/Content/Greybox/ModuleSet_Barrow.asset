@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edc4ebe1968283308913c7b78b6419fe, type: 3}
+  m_Name: ModuleSet_Barrow
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.ModuleSet
+  modules:
+  - {fileID: 11400000, guid: 30b14bcdcabe9fc9db2acd9c2dbdb25d, type: 2}
+  - {fileID: 11400000, guid: bee79ea8c5a78705db67d52ad66ef13a, type: 2}
+  - {fileID: 11400000, guid: d5289f2dd7b815fca8e67292b8690612, type: 2}
+  - {fileID: 11400000, guid: 757fc7aeda9020ccaa6a276b28a02424, type: 2}
+  - {fileID: 11400000, guid: af9fb6be535f9ca8abb243bef609d640, type: 2}
+  - {fileID: 11400000, guid: bccc696c3d24bb9399f416cba44a3d46, type: 2}
+  - {fileID: 11400000, guid: dcf8a03e34914a9bebe8b4d1dc6e5279, type: 2}
+  - {fileID: 11400000, guid: 4877535e5eb0284c189877ac508f5f91, type: 2}
+  - {fileID: 11400000, guid: 748b9cb8c648e9d83a68b0648e0aada0, type: 2}
+  - {fileID: 11400000, guid: 157a1588748a6e932a5f8574a48fce93, type: 2}
+  - {fileID: 11400000, guid: 208f3929bfffae8b39e9b535c803b75f, type: 2}

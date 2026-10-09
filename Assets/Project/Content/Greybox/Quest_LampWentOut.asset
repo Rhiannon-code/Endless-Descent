@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bbe7195eb15961a9f5d49363ecbd22, type: 3}
+  m_Name: Quest_LampWentOut
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.AuthoredQuestDefinition
+  id: quest.act1.lamp
+  title: The Lamp Went Out
+  giver: {fileID: 11400000, guid: 3d0eaa6ab437133d89473d2dba27f1a9, type: 2}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  reason: The undercroft lamp has burned every night for eleven years and it went
+    out on Tuesday. Nobody who went to relight it has come back up.
+  complication: The clerk is not telling you that the last one down was his brother.
+  availability: []
+  stages:
+  - Title: Get down there
+    Summary: The Undercroft is south-east of Ashmere, most of a day on foot. Find
+      it and go in.
+    Objectives:
+    - Kind: 4
+      Description: Reach the Undercroft, south-east of Ashmere
+      Item: {fileID: 0}
+      Npc: {fileID: 0}
+      Location: {fileID: 11400000, guid: 81b4a19b9b843f84cb70b72e23138e55, type: 2}
+      Enemy: {fileID: 0}
+      Count: 1
+    OnEnter: []
+  - Title: Find out what is in it
+    Summary: Whatever put the lamp out is still down there.
+    Objectives:
+    - Kind: 5
+      Description: Deal with what is in the Undercroft
+      Item: {fileID: 0}
+      Npc: {fileID: 0}
+      Location: {fileID: 11400000, guid: 81b4a19b9b843f84cb70b72e23138e55, type: 2}
+      Enemy: {fileID: 0}
+      Count: 1
+    OnEnter: []
+  - Title: Tell him
+    Summary: He has been waiting at the top of the stair since Tuesday.
+    Objectives:
+    - Kind: 3
+      Description: Tell Rowen Stagg what you found
+      Item: {fileID: 0}
+      Npc: {fileID: 11400000, guid: 3d0eaa6ab437133d89473d2dba27f1a9, type: 2}
+      Location: {fileID: 0}
+      Enemy: {fileID: 0}
+      Count: 1
+    OnEnter: []
+  onComplete:
+  - Kind: 3
+    Faction: {fileID: 0}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: 120
+  - Kind: 0
+    Faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: 8
+  - Kind: 7
+    Faction: {fileID: 0}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: quest.act1.ledger
+    Text: 
+    Amount: 0
+  onFail: []
+  deadlineDays: 0
+  failsIfGiverDies: 1

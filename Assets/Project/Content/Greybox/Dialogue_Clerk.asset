@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6cb25f3c1035093882f8e2fd756ed70, type: 3}
+  m_Name: Dialogue_Clerk
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.DialogueDefinition
+  id: dialogue.npc.ashmere.0
+  rootId: root
+  lines:
+  - Id: root
+    Text: '{npc}, parish clerk. He has the register open and has not written in it.'
+    Requires: []
+    Choices:
+    - Text: What happened here?
+      GoTo: lamp
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+    - Text: Is there work?
+      GoTo: taken
+      Requires:
+      - Kind: 9
+        Faction: {fileID: 0}
+        Item: {fileID: 0}
+        Npc: {fileID: 0}
+        QuestId: quest.act1.lamp
+        Amount: 0
+        FromHour: 0
+        ToHour: 23
+      - Kind: 3
+        Faction: {fileID: 0}
+        Item: {fileID: 0}
+        Npc: {fileID: 0}
+        QuestId: quest.act1.lamp
+        Amount: 0
+        FromHour: 0
+        ToHour: 23
+      Effects: []
+      Action: 1
+      QuestId: quest.act1.lamp
+    - Text: About the undercroft.
+      GoTo: thanks
+      Requires:
+      - Kind: 8
+        Faction: {fileID: 0}
+        Item: {fileID: 0}
+        Npc: {fileID: 0}
+        QuestId: quest.act1.lamp
+        Amount: 0
+        FromHour: 0
+        ToHour: 23
+      Effects: []
+      Action: 2
+      QuestId: 
+    - Text: Who keeps the register?
+      GoTo: register
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+    - Text: Good day.
+      GoTo: 
+      Requires: []
+      Effects: []
+      Action: 4
+      QuestId: 
+  - Id: lamp
+    Text: The lamp in the Undercroft has burned every night for eleven years. It
+      went out on Tuesday. Three went down to relight it. None came up. South-east
+      of here, most of a day on foot, past the last of the fields.
+    Requires: []
+    Choices:
+    - Text: And the parish did nothing?
+      GoTo: nothing
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: nothing
+    Text: The parish sent three. That was doing something.
+    Requires: []
+    Choices:
+    - Text: ...
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: register
+    Text: I do. Eleven years out of date, and the Wardens will not release a body
+      without it. You can see the difficulty.
+    Requires: []
+    Choices:
+    - Text: I can.
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: taken
+    Text: Then take a lamp of your own. The Undercroft is south-east of Ashmere,
+      most of a day on foot. And do not go down there after dark, which is advice
+      I am aware means nothing underground.
+    Requires: []
+    Choices:
+    - Text: Understood.
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: thanks
+    Text: You came back up. That already makes you the fourth and the only one.
+    Requires: []
+    Choices:
+    - Text: There is more to say about it.
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 

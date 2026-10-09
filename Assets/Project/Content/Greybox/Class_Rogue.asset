@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aafaf41f0deacafa9d7fd2af01f80e1, type: 3}
+  m_Name: Class_Rogue
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.ClassDefinition
+  id: class.rogue
+  displayName: Rogue
+  description: 'Fights where it is cheapest to fight: from behind, and only once.'
+  primarySkills: 01000000080000000e000000
+  majorSkills: 070000000f00000011000000
+  minorSkills: 000000000500000010000000120000001300000006000000
+  attributeBonuses: 0000000002000000feffffff0800000000000000040000000800000002000000
+  hitPointsPerLevel: 8
+  mageryMultiplier: 0.8
+  specials: 040000000f000000

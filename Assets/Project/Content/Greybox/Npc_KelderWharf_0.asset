@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_KelderWharf_0
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.kelderwharf.0
+  displayName: Halric Salter
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: 24babf8f698bc9cb791d7c1bebe6c110, type: 2}
+  motives: 0700000003000000
+  relations:
+  - {fileID: 11400000, guid: ede9c0940813a06e6a23b0562c892fce, type: 2}
+  - {fileID: 11400000, guid: 7535b003d8b3639c3b08a830d69beb6b, type: 2}
+  situation: Is a carter in Kelder Wharf, and expects the same of everybody else.
+  dialogue: {fileID: 0}
+  workplace: 50
+  isMerchant: 1
+  startingGold: 250

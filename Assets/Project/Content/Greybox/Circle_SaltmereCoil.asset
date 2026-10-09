@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84814c7ae21305feb87ec472f276d9a9, type: 3}
+  m_Name: Circle_SaltmereCoil
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.FactionDefinition
+  id: circle.saltmerecoil
+  displayName: Saltmere Coil
+  description: Fisher-folk. Their working is older than the imperial schools and
+    does not map onto them.  (Saltmere; Alteration by the old classification.)
+  startingStanding: -40
+  rivals:
+  - {fileID: 11400000, guid: f92cc5f4fffd06a13aff383fbbb4a906, type: 2}
+  - {fileID: 11400000, guid: d8a9f66a723f3c636a05634d573d8a44, type: 2}
+  - {fileID: 11400000, guid: 637b22b9d7c9f0c9bb097624cf558b68, type: 2}
+  - {fileID: 11400000, guid: 930f7dd1a45524a31aff442aaa45913f, type: 2}
+  - {fileID: 11400000, guid: 0646000a76d01c4ee922a71902e37066, type: 2}
+  - {fileID: 11400000, guid: 4eb3a946816fb9990ba065877e959bb8, type: 2}
+  - {fileID: 11400000, guid: 810f476d8ae2e297080118aafc32a9c0, type: 2}
+  - {fileID: 11400000, guid: 8026231ede810440bb551c7c0b5de0c9, type: 2}
+  rivalBleed: 0.35
+  rankTitles:
+  - Outsider
+  - Associate
+  - Member
+  - Trusted
+  - Inner Circle
+  isGuild: 1
+  joinAtStanding: 10
+  services: 0000000003000000
+  serviceRequiresRank: 

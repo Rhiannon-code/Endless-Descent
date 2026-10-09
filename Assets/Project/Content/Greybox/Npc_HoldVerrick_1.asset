@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_HoldVerrick_1
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.holdverrick.1
+  displayName: Caspar Purlin
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: 33718902f6d66ae0d99dc94fa253e0d8, type: 2}
+  motives: 0200000007000000
+  relations:
+  - {fileID: 11400000, guid: d935ef678aa0fe2eaa3ab2e3d5683b76, type: 2}
+  - {fileID: 11400000, guid: 290c3104b97d85209ab2385789c4ac4f, type: 2}
+  situation: Is the smith in Hold Verrick, and means to hold the licence by winter.
+  dialogue: {fileID: 0}
+  workplace: 36
+  isMerchant: 0
+  startingGold: 250

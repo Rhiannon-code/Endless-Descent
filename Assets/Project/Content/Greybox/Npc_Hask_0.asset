@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82f35a305542c11cf9d367b5f4417be3, type: 3}
+  m_Name: Npc_Hask_0
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.NpcDefinition
+  id: npc.hask.0
+  displayName: Edda Ferrow
+  prefab: {fileID: 0}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  schedule: {fileID: 11400000, guid: 0b384f319ee2967ecb5eaa9d951e6b7b, type: 2}
+  home: {fileID: 11400000, guid: e2f96b16ad0ce7cfe9f640ef192a53f1, type: 2}
+  motives: 0300000006000000
+  relations:
+  - {fileID: 11400000, guid: d054d48de31c122ac933b65c9ca6fc6d, type: 2}
+  - {fileID: 11400000, guid: 2b693055c2ee8df5f81c5c8ec6e21d00, type: 2}
+  situation: Is a fisher in Hask, and has not slept properly since the spring.
+  dialogue: {fileID: 0}
+  workplace: 41
+  isMerchant: 1
+  startingGold: 250

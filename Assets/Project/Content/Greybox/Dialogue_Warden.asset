@@ -1,0 +1,136 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6cb25f3c1035093882f8e2fd756ed70, type: 3}
+  m_Name: Dialogue_Warden
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.DialogueDefinition
+  id: dialogue.npc.ashmere.1
+  rootId: root
+  lines:
+  - Id: root
+    Text: '{npc} of the Gravewardens. She is counting something and does not stop
+      to talk.'
+    Requires: []
+    Choices:
+    - Text: What do the Wardens want here?
+      GoTo: rites
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+    - Text: Is there work?
+      GoTo: fee
+      Requires:
+      - Kind: 9
+        Faction: {fileID: 0}
+        Item: {fileID: 0}
+        Npc: {fileID: 0}
+        QuestId: quest.act1.wardens
+        Amount: 0
+        FromHour: 0
+        ToHour: 23
+      - Kind: 3
+        Faction: {fileID: 0}
+        Item: {fileID: 0}
+        Npc: {fileID: 0}
+        QuestId: quest.act1.wardens
+        Amount: 0
+        FromHour: 0
+        ToHour: 23
+      Effects: []
+      Action: 1
+      QuestId: quest.act1.wardens
+    - Text: About the fee.
+      GoTo: settled
+      Requires:
+      - Kind: 8
+        Faction: {fileID: 0}
+        Item: {fileID: 0}
+        Npc: {fileID: 0}
+        QuestId: quest.act1.wardens
+        Amount: 0
+        FromHour: 0
+        ToHour: 23
+      Effects: []
+      Action: 2
+      QuestId: 
+    - Text: We are on good terms, then.
+      GoTo: friend
+      Requires:
+      - Kind: 0
+        Faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+        Item: {fileID: 0}
+        Npc: {fileID: 0}
+        QuestId: 
+        Amount: 25
+        FromHour: 0
+        ToHour: 23
+      Effects: []
+      Action: 0
+      QuestId: 
+    - Text: I will leave you to it.
+      GoTo: 
+      Requires: []
+      Effects: []
+      Action: 4
+      QuestId: 
+  - Id: rites
+    Text: What we always want. The rites said, the fee paid, and the parish to stop
+      pretending those are the same thing.
+    Requires: []
+    Choices:
+    - Text: And if they are not paid?
+      GoTo: unpaid
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: unpaid
+    Text: Then the dead stay where they fell and we are blamed for it.
+    Requires: []
+    Choices:
+    - Text: I see.
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: fee
+    Text: Sixty. In my hand, not on the ledger. You will understand why before long.
+    Requires: []
+    Choices:
+    - Text: Sixty it is.
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: settled
+    Text: Paid twice and recorded once. Do not put that together out loud in here.
+    Requires: []
+    Choices:
+    - Text: Noted.
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 
+  - Id: friend
+    Text: 'We are. Which is why I will say it plainly: the clerk''s brother is on
+      that register, and he wrote the entry himself.'
+    Requires: []
+    Choices:
+    - Text: Before or after?
+      GoTo: root
+      Requires: []
+      Effects: []
+      Action: 0
+      QuestId: 

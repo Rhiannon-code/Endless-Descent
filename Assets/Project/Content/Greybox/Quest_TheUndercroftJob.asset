@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5bbe7195eb15961a9f5d49363ecbd22, type: 3}
+  m_Name: Quest_TheUndercroftJob
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.AuthoredQuestDefinition
+  id: quest.undercroft_job
+  title: The Undercroft Job
+  giver: {fileID: 11400000, guid: 3d0eaa6ab437133d89473d2dba27f1a9, type: 2}
+  faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+  reason: Two farmhands went into the Undercroft after a noise and did not come out.
+    The company posts the standard rate for a recovery and does not discuss the noise.
+  complication: It is not a monster. Whatever is down there was dormant until they
+    disturbed it, and the company will pay out either way rather than answer questions.
+  availability: []
+  stages:
+  - Title: Go down and find out
+    Summary: The Undercroft is south-east of Ashmere. Whatever is in it is still
+      there. Put it down.
+    Objectives:
+    - Kind: 5
+      Description: Deal with what is in the Undercroft
+      Item: {fileID: 0}
+      Npc: {fileID: 0}
+      Location: {fileID: 11400000, guid: 81b4a19b9b843f84cb70b72e23138e55, type: 2}
+      Enemy: {fileID: 0}
+      Count: 1
+    OnEnter: []
+  - Title: Report it
+    Summary: Tell Rowen Stagg what was down there, and see what they do with it.
+    Objectives:
+    - Kind: 3
+      Description: Report to Rowen Stagg
+      Item: {fileID: 0}
+      Npc: {fileID: 11400000, guid: 3d0eaa6ab437133d89473d2dba27f1a9, type: 2}
+      Location: {fileID: 0}
+      Enemy: {fileID: 0}
+      Count: 1
+    OnEnter: []
+  onComplete:
+  - Kind: 3
+    Faction: {fileID: 0}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: The standard rate, paid without comment.
+    Amount: 250
+  - Kind: 0
+    Faction: {fileID: 11400000, guid: fba0a8fe9beb89c1f88b8c0dd2a76d54, type: 2}
+    Item: {fileID: 0}
+    Npc: {fileID: 0}
+    Property: {fileID: 0}
+    QuestId: 
+    Text: 
+    Amount: 8
+  onFail: []
+  deadlineDays: 0
+  failsIfGiverDies: 1

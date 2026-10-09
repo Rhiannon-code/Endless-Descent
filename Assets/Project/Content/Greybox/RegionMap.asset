@@ -1,0 +1,594 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d4fb4a63c78927948a5eea548d22b7e, type: 3}
+  m_Name: RegionMap
+  m_EditorClassIdentifier: Game.Data::EndlessDescent.Data.RegionMap
+  locations:
+  - DisplayName: Saltmere
+    Position: {x: -42, y: 62}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 3f6a87dee50ccf781bb2bfa691a96586, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: a37262973766bc3a69b0d49ca843e2bb, type: 2}
+    - {fileID: 11400000, guid: 7d1cb49a3f2cbafbd9ef0d9e82d755ed, type: 2}
+    - {fileID: 11400000, guid: 5da2782b3c9189445acc66123a923ad9, type: 2}
+    - {fileID: 11400000, guid: db4fa96cb5fe123e1bf39f6e4ebb2475, type: 2}
+  - DisplayName: Kelder Wharf
+    Position: {x: 18, y: 66}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 653155971c49602a08de83a09a78938b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: a0a914b3bfa49c5859d1526ce2723549, type: 2}
+    - {fileID: 11400000, guid: ede9c0940813a06e6a23b0562c892fce, type: 2}
+    - {fileID: 11400000, guid: bf2bce77e1cab0b479a97d3a39bd1a93, type: 2}
+    - {fileID: 11400000, guid: 77e483f1229a3b7978f8323a68a5afac, type: 2}
+    - {fileID: 11400000, guid: 7535b003d8b3639c3b08a830d69beb6b, type: 2}
+  - DisplayName: Grand Anchor
+    Position: {x: 74, y: 58}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: f7f39d5a117220d559c1a49b978a1956, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 6369a4652d1239ceba34e949f948dfca, type: 2}
+    - {fileID: 11400000, guid: 088ff7a466708dc8caaf472c05e79c62, type: 2}
+    - {fileID: 11400000, guid: d35a545bf9f79fbbc906dd7c166cc3b4, type: 2}
+    - {fileID: 11400000, guid: 74e71877ecd6534fe885bce6bfe6c1e8, type: 2}
+    - {fileID: 11400000, guid: f868b73b9817975cab99b9cf520f154d, type: 2}
+    - {fileID: 11400000, guid: 78d4930688f4f49489cb6e08ad32a39a, type: 2}
+  - DisplayName: Dunmoor
+    Position: {x: -30, y: 18}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: e0016c82d30b6165096204067226da4e, type: 2}
+    - {fileID: 11400000, guid: 2381aa850c6eaad4dbad7b83c7dc5ba6, type: 2}
+    - {fileID: 11400000, guid: 1a2f99192e9c7e7ba85b5719e1f4d7ef, type: 2}
+    - {fileID: 11400000, guid: 747bb23cecf342a3a879179315e0e9a4, type: 2}
+  - DisplayName: Ashmere
+    Position: {x: 6, y: 8}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 3d0eaa6ab437133d89473d2dba27f1a9, type: 2}
+    - {fileID: 11400000, guid: 9ec4428bbdff2bfa3a15ad688555f7aa, type: 2}
+    - {fileID: 11400000, guid: dc3bd92c9be7849ec87dcf1cfd7a35df, type: 2}
+    - {fileID: 11400000, guid: dfbb48126e7474cbab330f97238da191, type: 2}
+    - {fileID: 11400000, guid: d40dd196c6945c80f869da277b532b00, type: 2}
+  - DisplayName: Highwall
+    Position: {x: 52, y: 20}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 461bd6defc9821bff8714942028adef9, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 84b0858f330c1ae46af371a7d8007688, type: 2}
+    - {fileID: 11400000, guid: 804700f5446bec831994902f771032be, type: 2}
+    - {fileID: 11400000, guid: 17da95464380531a4a45651e1cf662d1, type: 2}
+    - {fileID: 11400000, guid: 527450af43985e2ec938070d137760db, type: 2}
+    - {fileID: 11400000, guid: 7da608ac8c38c7ea0a77beb8ca1c7f11, type: 2}
+    - {fileID: 11400000, guid: c776bdfe3bfe94dfb995ae050727a36f, type: 2}
+  - DisplayName: Wren's Rest
+    Position: {x: -56, y: -24}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 85983204442e4902fafa2f2b2c68479b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: f64ca77a4f5480fee9977035fe90ed4c, type: 2}
+    - {fileID: 11400000, guid: 0bc62014b6cf9e89ba09cb493f0d8272, type: 2}
+    - {fileID: 11400000, guid: 1abfc7b0e05919be99e0aa865ff2dedf, type: 2}
+  - DisplayName: Crypt
+    Position: {x: -12, y: -14}
+    Dungeon: {fileID: 11400000, guid: ce7d8f7ddf91d074ea5fb78e27f2d120, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Barrow
+    Position: {x: -48, y: -46}
+    Dungeon: {fileID: 11400000, guid: 93f7a8d4fe151adbfa65ba3cd805bd06, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Undercroft
+    Position: {x: 22, y: -10}
+    Dungeon: {fileID: 11400000, guid: 75b1c35a8a149ab8dbaba3189dfceded, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Monastery
+    Position: {x: 64, y: -18}
+    Dungeon: {fileID: 11400000, guid: 4ab3829043b687ef6a4f50d57ea19686, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Gaol
+    Position: {x: 40, y: -40}
+    Dungeon: {fileID: 11400000, guid: 748eab8d2562129308eb075813b4de6f, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Deep Mine
+    Position: {x: -22, y: -58}
+    Dungeon: {fileID: 11400000, guid: cff402c8d8b2bf4d290ca4a4f04c76c4, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Arcane Sanctum
+    Position: {x: 84, y: 6}
+    Dungeon: {fileID: 11400000, guid: d4640f2feac9d5c16a6ed07e8e8cd951, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Keep
+    Position: {x: 30, y: 36}
+    Dungeon: {fileID: 11400000, guid: 436bbd30f4cda08e1a9d8639da6c03d8, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Barracks
+    Position: {x: -4, y: 40}
+    Dungeon: {fileID: 11400000, guid: 339033f2a3b71516dad927d4035dc4ec, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Waterworks
+    Position: {x: 12, y: -32}
+    Dungeon: {fileID: 11400000, guid: 321424117ceabba21acb7564f9a479cf, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Casrenne
+    Position: {x: 40, y: -150}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 461bd6defc9821bff8714942028adef9, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: d42782196aa2e747abf9682623930cdb, type: 2}
+    - {fileID: 11400000, guid: b54eec5b296eb178eabd53b96bf01c56, type: 2}
+    - {fileID: 11400000, guid: da25b89c95408eb46b68146f961ff442, type: 2}
+    - {fileID: 11400000, guid: c2b869a4754c2aac28dd481ee1d151dc, type: 2}
+    - {fileID: 11400000, guid: 0b99e7e012f90de2aa88f934ca8e8202, type: 2}
+    - {fileID: 11400000, guid: 17d6f2375d41e64e199d3be7d3ce83ce, type: 2}
+  - DisplayName: Tallow Cross
+    Position: {x: -4, y: -104}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 54e6cecdd58062c6aa6a453c841de2e1, type: 2}
+    - {fileID: 11400000, guid: e57eeaff3f1c160a0986190fe10aba6c, type: 2}
+    - {fileID: 11400000, guid: bcffe7ae0b2e4780ba0ee8fb7fc8f479, type: 2}
+    - {fileID: 11400000, guid: f82718e77a664e49b9eadc61a1f9b9f1, type: 2}
+    - {fileID: 11400000, guid: 0725e5dddc46582afa32a44164c5f60a, type: 2}
+  - DisplayName: Verrin
+    Position: {x: 92, y: -128}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 7c4f0e750d65e16eba5089f1ca85e9ce, type: 2}
+    - {fileID: 11400000, guid: efc0b4132e47c23d5ac5cb12efcfc89a, type: 2}
+    - {fileID: 11400000, guid: 319f5a2a43bafbfe99bb1fd6685cbaec, type: 2}
+    - {fileID: 11400000, guid: 9ec040980b5db7f9e934fa21ec890d2b, type: 2}
+    - {fileID: 11400000, guid: 15b8cdff020ed3cffb6047cee6e43521, type: 2}
+  - DisplayName: Oldgate
+    Position: {x: 8, y: -186}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 8f0f879e7cbd7e929b90a5bb184b6898, type: 2}
+    - {fileID: 11400000, guid: 3b20962baf6aab61d9301c9028caf225, type: 2}
+    - {fileID: 11400000, guid: 8ece749bc5209788aa96be923d278f7b, type: 2}
+    - {fileID: 11400000, guid: 0e98f6898b62035779e165d0ae4264eb, type: 2}
+    - {fileID: 11400000, guid: ae67b6ff129b35aa7a65a2984fcb3c2a, type: 2}
+  - DisplayName: Hollybeck
+    Position: {x: 66, y: -96}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 4fe8e80ffb3e5447599a3f7e054a04d0, type: 2}
+    - {fileID: 11400000, guid: e71a4bfc34e920457a5f5cd5ee947afa, type: 2}
+    - {fileID: 11400000, guid: 06aaa7e0252b1113eaa60121be1323cc, type: 2}
+    - {fileID: 11400000, guid: 8d996f96ef3ddbeca9e3f89cd9f31417, type: 2}
+  - DisplayName: Sarn
+    Position: {x: -14, y: -166}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 1286df0f43bfad2ab9422ab306be10ab, type: 2}
+    - {fileID: 11400000, guid: 6d7292d9f4e7df14ab949ce7806f2f33, type: 2}
+    - {fileID: 11400000, guid: aa821a76860d84f43a5acd6dab1e3d45, type: 2}
+    - {fileID: 11400000, guid: 6d4ecc8dd6c0972af94562aa9fcaa2a6, type: 2}
+  - DisplayName: Mill Wenden
+    Position: {x: 104, y: -172}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 092956ccd703b8475abca399a739c1aa, type: 2}
+    - {fileID: 11400000, guid: 10770fb5fb93da43fbe4835110be9aea, type: 2}
+    - {fileID: 11400000, guid: a579656f7e7d6de769c3b5b710e65bee, type: 2}
+    - {fileID: 11400000, guid: 275e2e24b3d29abf6a396c09e5674dd1, type: 2}
+  - DisplayName: Cadger's Rest
+    Position: {x: 74, y: -196}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 85983204442e4902fafa2f2b2c68479b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: e3080e84d56a8356092a79025aa2624f, type: 2}
+    - {fileID: 11400000, guid: 3f760c2da1055afe08544708f2a67cc2, type: 2}
+    - {fileID: 11400000, guid: f06587514bc1db9deae2441a46f25a77, type: 2}
+  - DisplayName: Pell
+    Position: {x: -22, y: -132}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 85983204442e4902fafa2f2b2c68479b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 62c0533add53a41b281894377d139989, type: 2}
+    - {fileID: 11400000, guid: 594d29445f4509ad390ddf224bf0565d, type: 2}
+    - {fileID: 11400000, guid: bf514e1b7acf9fed0ad6a3fbc130a6ba, type: 2}
+  - DisplayName: The Sunken Senate
+    Position: {x: 46, y: -142}
+    Dungeon: {fileID: 11400000, guid: 75b1c35a8a149ab8dbaba3189dfceded, type: 2}
+    Scale: 2
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Ossuary of Verrin
+    Position: {x: 100, y: -140}
+    Dungeon: {fileID: 11400000, guid: ce7d8f7ddf91d074ea5fb78e27f2d120, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Tallow Undercroft
+    Position: {x: -10, y: -96}
+    Dungeon: {fileID: 11400000, guid: 75b1c35a8a149ab8dbaba3189dfceded, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Greyhold
+    Position: {x: 22, y: -118}
+    Dungeon: {fileID: 11400000, guid: 436bbd30f4cda08e1a9d8639da6c03d8, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Debtors' Gaol
+    Position: {x: 58, y: -178}
+    Dungeon: {fileID: 11400000, guid: 748eab8d2562129308eb075813b4de6f, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Saint Halvory's
+    Position: {x: 84, y: -112}
+    Dungeon: {fileID: 11400000, guid: 4ab3829043b687ef6a4f50d57ea19686, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Long Barrow of Sarn
+    Position: {x: -30, y: -178}
+    Dungeon: {fileID: 11400000, guid: 93f7a8d4fe151adbfa65ba3cd805bd06, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Cadger's Delve
+    Position: {x: 86, y: -206}
+    Dungeon: {fileID: 11400000, guid: cff402c8d8b2bf4d290ca4a4f04c76c4, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Chancel
+    Position: {x: 30, y: -196}
+    Dungeon: {fileID: 11400000, guid: 4ab3829043b687ef6a4f50d57ea19686, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Oldgate Barracks
+    Position: {x: -6, y: -200}
+    Dungeon: {fileID: 11400000, guid: 339033f2a3b71516dad927d4035dc4ec, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Weeping Stair
+    Position: {x: 112, y: -152}
+    Dungeon: {fileID: 11400000, guid: 321424117ceabba21acb7564f9a479cf, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Hollybeck Warren
+    Position: {x: 60, y: -80}
+    Dungeon: {fileID: 11400000, guid: cff402c8d8b2bf4d290ca4a4f04c76c4, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Marrowgate
+    Position: {x: -108, y: -40}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 58f825f371b1b59139c567a9eaab27ca, type: 2}
+    - {fileID: 11400000, guid: dd13804cd60435c9c8d37110b6534ad0, type: 2}
+    - {fileID: 11400000, guid: 34e30a424349ccf9c827c6fc54dbf6a1, type: 2}
+    - {fileID: 11400000, guid: 11ac72c9e0570aa65a8a19f8b07a2656, type: 2}
+    - {fileID: 11400000, guid: 1a52472e376169ff8a5f7c3d3da0bf53, type: 2}
+  - DisplayName: Colder
+    Position: {x: -156, y: -96}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: cf444d6c4ba102ef3a19c76d86d4c5ec, type: 2}
+    - {fileID: 11400000, guid: 5df56ab69604676af83545605d7f126b, type: 2}
+    - {fileID: 11400000, guid: a529dcd2f3567374d9f669089a34a58f, type: 2}
+    - {fileID: 11400000, guid: 623459024f50322f4a50037d77284893, type: 2}
+    - {fileID: 11400000, guid: d8d47cc6e2f830320ba05f6b7bf9558c, type: 2}
+  - DisplayName: Ninefords
+    Position: {x: -84, y: -96}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 3263e4632ae6fbff2bd7455f3c590d80, type: 2}
+    - {fileID: 11400000, guid: e0c6a5419de526a6a9e222e1826936ec, type: 2}
+    - {fileID: 11400000, guid: 11fc247696972e28b87215a344b0965c, type: 2}
+    - {fileID: 11400000, guid: 7f4a22b87b7aab9b4be494824a2c7131, type: 2}
+  - DisplayName: Hask
+    Position: {x: -172, y: -30}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: e70da0b0dc5c05473b9c2923781a520c, type: 2}
+    - {fileID: 11400000, guid: d054d48de31c122ac933b65c9ca6fc6d, type: 2}
+    - {fileID: 11400000, guid: 094a02b78aa7dc7e4ac8f8d22a7a4c14, type: 2}
+    - {fileID: 11400000, guid: 2b693055c2ee8df5f81c5c8ec6e21d00, type: 2}
+  - DisplayName: Ettrin
+    Position: {x: -122, y: 8}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 6a51fc830e53d0ff89af7c1801e72b9d, type: 2}
+    - {fileID: 11400000, guid: 7a5fcfd4c8c009ffe87234829978e34a, type: 2}
+    - {fileID: 11400000, guid: 2ff9366917a7b14a0b55d754c7c8f71c, type: 2}
+    - {fileID: 11400000, guid: 584f33e9ec2611ce5bba02f5920513b1, type: 2}
+  - DisplayName: Stonewick
+    Position: {x: -196, y: -68}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 85983204442e4902fafa2f2b2c68479b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 2d7854e4db7f89c2faeef0356081d591, type: 2}
+    - {fileID: 11400000, guid: 9aaa8902f5e11c83a9ecf5104926ec65, type: 2}
+    - {fileID: 11400000, guid: 08680377b714bd71ca3fa02d41838c10, type: 2}
+  - DisplayName: Barrow-on-Dol
+    Position: {x: -90, y: 14}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 85983204442e4902fafa2f2b2c68479b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 3b79606a3b9684a2eaa5ce41b7ea97b7, type: 2}
+    - {fileID: 11400000, guid: 1e91e325a774bfdb2a73e405472a343c, type: 2}
+    - {fileID: 11400000, guid: 787d4e90a6f7d2e6d867ab7e879b7714, type: 2}
+  - DisplayName: Quarry End
+    Position: {x: -142, y: -140}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 85983204442e4902fafa2f2b2c68479b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: bb78b99d99aae106eaae0be5a3ac57c0, type: 2}
+    - {fileID: 11400000, guid: 6d659179ae6e7912e8c4bf01471c4329, type: 2}
+    - {fileID: 11400000, guid: 0e36adc8254c4a34d9022c90c2b8b522, type: 2}
+  - DisplayName: Thistlemoor
+    Position: {x: -186, y: 10}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 85983204442e4902fafa2f2b2c68479b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: cb93088ea34a6620191fac6b84ec04bb, type: 2}
+    - {fileID: 11400000, guid: 9b6de32929c15ce6393037230672eaca, type: 2}
+    - {fileID: 11400000, guid: 3825356c166d690bfbe9bc8f76aa3ae6, type: 2}
+  - DisplayName: Vaskir
+    Position: {x: -130, y: -74}
+    Dungeon: {fileID: 11400000, guid: 436bbd30f4cda08e1a9d8639da6c03d8, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Choir Vault
+    Position: {x: -134, y: -82}
+    Dungeon: {fileID: 11400000, guid: 75b1c35a8a149ab8dbaba3189dfceded, type: 2}
+    Scale: 2
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Dolmarch Keep
+    Position: {x: -114, y: -54}
+    Dungeon: {fileID: 11400000, guid: 436bbd30f4cda08e1a9d8639da6c03d8, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Hollow March
+    Position: {x: -168, y: -122}
+    Dungeon: {fileID: 11400000, guid: 93f7a8d4fe151adbfa65ba3cd805bd06, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Ninefords Waterworks
+    Position: {x: -78, y: -110}
+    Dungeon: {fileID: 11400000, guid: 321424117ceabba21acb7564f9a479cf, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Red Cells
+    Position: {x: -100, y: -24}
+    Dungeon: {fileID: 11400000, guid: 748eab8d2562129308eb075813b4de6f, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Hask Deep
+    Position: {x: -184, y: -20}
+    Dungeon: {fileID: 11400000, guid: cff402c8d8b2bf4d290ca4a4f04c76c4, type: 2}
+    Scale: 2
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Silent Cloister
+    Position: {x: -150, y: 20}
+    Dungeon: {fileID: 11400000, guid: 4ab3829043b687ef6a4f50d57ea19686, type: 2}
+    Scale: 1
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Ettrin Crypt
+    Position: {x: -128, y: 22}
+    Dungeon: {fileID: 11400000, guid: ce7d8f7ddf91d074ea5fb78e27f2d120, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Undercroft of Colder
+    Position: {x: -162, y: -88}
+    Dungeon: {fileID: 11400000, guid: 75b1c35a8a149ab8dbaba3189dfceded, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Marrowgate Barracks
+    Position: {x: -102, y: -48}
+    Dungeon: {fileID: 11400000, guid: 339033f2a3b71516dad927d4035dc4ec, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: The Tally House
+    Position: {x: -206, y: -104}
+    Dungeon: {fileID: 11400000, guid: 93f7a8d4fe151adbfa65ba3cd805bd06, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Hvarn
+    Position: {x: 40, y: 124}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 653155971c49602a08de83a09a78938b, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 3b8a1fb51fcfe526b839c4ac69a0082a, type: 2}
+    - {fileID: 11400000, guid: b900d2cdf3782da51b0bb42d0bc7d309, type: 2}
+    - {fileID: 11400000, guid: d2eb0b6d06f3506bbbcad1b6e86baa30, type: 2}
+    - {fileID: 11400000, guid: f04d6397ea419383bb45b7f4f446c199, type: 2}
+    - {fileID: 11400000, guid: f914d0be75be980a89b42f720163fe37, type: 2}
+  - DisplayName: the Gullmarket
+    Position: {x: 92, y: 116}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: ba52d66f0aabab8ea96641dd3038e9bb, type: 2}
+    - {fileID: 11400000, guid: 602612f104bdd56bb9fcf6f798e7980b, type: 2}
+    - {fileID: 11400000, guid: 974877511a0b799f7b07c50b3d0f37cc, type: 2}
+    - {fileID: 11400000, guid: b49c9f94c87a577798b021b43b01285f, type: 2}
+    - {fileID: 11400000, guid: 823712a9274faa5a09ca514368199bc1, type: 2}
+  - DisplayName: Skarr Deep
+    Position: {x: 66, y: 138}
+    Dungeon: {fileID: 11400000, guid: cff402c8d8b2bf4d290ca4a4f04c76c4, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: the Cold Chapter
+    Position: {x: -148, y: 134}
+    Dungeon: {fileID: 11400000, guid: 4ab3829043b687ef6a4f50d57ea19686, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Skellvard
+    Position: {x: 14, y: 148}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: c9997d6daa679b081b2969e07715f192, type: 2}
+    - {fileID: 11400000, guid: 86451e0bba467a81d883fbaa1e3fc5ce, type: 2}
+    - {fileID: 11400000, guid: cc6d9df31c6bffe87832e876b85730a5, type: 2}
+    - {fileID: 11400000, guid: ddb6f565b51d438208dbabe53adee6ec, type: 2}
+    - {fileID: 11400000, guid: 5209656e4f0d8feb0b3c54f8ba7540dc, type: 2}
+  - DisplayName: the Winter Hall
+    Position: {x: 118, y: 152}
+    Dungeon: {fileID: 11400000, guid: d4640f2feac9d5c16a6ed07e8e8cd951, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Ilsemer
+    Position: {x: 168, y: -96}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 5a1702397a44bf9268b7bd540c68f874, type: 2}
+    - {fileID: 11400000, guid: 2364b6041d4d50fa49685d5b84a2278c, type: 2}
+    - {fileID: 11400000, guid: 9f79b03b4e844c1c1a218df501dbe5df, type: 2}
+    - {fileID: 11400000, guid: 1a7a03876f7d7446aab96c786d489642, type: 2}
+    - {fileID: 11400000, guid: 9ecab03faa2413986926e6e5dc49d928, type: 2}
+  - DisplayName: the Warded Hall
+    Position: {x: 186, y: -138}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: dda0ff258b2cdba42bdf84118a02bef8, type: 2}
+    - {fileID: 11400000, guid: 94eb549bbfc038cd6b7d32b3f6e63db8, type: 2}
+    - {fileID: 11400000, guid: 4b9243d4e409dc0d089c7c4cefeb7186, type: 2}
+    - {fileID: 11400000, guid: e2c6f53dd559622e3bc5e834992c72fe, type: 2}
+    - {fileID: 11400000, guid: 7605617b2a71c9338a1125d760b58ac5, type: 2}
+  - DisplayName: Thessan Barrow
+    Position: {x: 158, y: -46}
+    Dungeon: {fileID: 11400000, guid: 93f7a8d4fe151adbfa65ba3cd805bd06, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: the Long Register
+    Position: {x: 200, y: -104}
+    Dungeon: {fileID: 11400000, guid: d4640f2feac9d5c16a6ed07e8e8cd951, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: Hold Verrick
+    Position: {x: 30, y: -258}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 9793ae0226bd80d378c6a6ed0c07fad5, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: 290c3104b97d85209ab2385789c4ac4f, type: 2}
+    - {fileID: 11400000, guid: 9a6899716287d3f838f203c9cc12f041, type: 2}
+    - {fileID: 11400000, guid: d935ef678aa0fe2eaa3ab2e3d5683b76, type: 2}
+    - {fileID: 11400000, guid: 2b352fae5467ebfc6b40474f163c7ba8, type: 2}
+    - {fileID: 11400000, guid: 5b260c7095340b44ba5d856ad5e49217, type: 2}
+  - DisplayName: the Ash Line
+    Position: {x: -14, y: -246}
+    Dungeon: {fileID: 0}
+    Scale: 0
+    Settlement: {fileID: 11400000, guid: 81af5e277c34c817d8a20f37321dee42, type: 2}
+    Residents:
+    - {fileID: 11400000, guid: d370ad13f02c2be8187eb96b2524a79e, type: 2}
+    - {fileID: 11400000, guid: d5785f448323e103eb809cb47da5011f, type: 2}
+    - {fileID: 11400000, guid: 78a7fc9b881d02282a9640883af80435, type: 2}
+    - {fileID: 11400000, guid: 1d55861d4c85b3f88b3afd8871cc4ac7, type: 2}
+  - DisplayName: Verrick Deep
+    Position: {x: 62, y: -272}
+    Dungeon: {fileID: 11400000, guid: cff402c8d8b2bf4d290ca4a4f04c76c4, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  - DisplayName: the Burnt Hold
+    Position: {x: -34, y: -276}
+    Dungeon: {fileID: 11400000, guid: 436bbd30f4cda08e1a9d8639da6c03d8, type: 2}
+    Scale: 0
+    Settlement: {fileID: 0}
+    Residents: []
+  kilometresPerDay: 28
